@@ -19,6 +19,7 @@ cd Devices-Price-Classification-System`
 ```
 <br/>
 You will need to install the system on your device by setting up two components:
+<br/>
 ## First Compnnent: Python Flask API:
 First install the requirments for the project using: <br/>
 ```
@@ -30,6 +31,7 @@ Then you will run the flask API: <br/>
 cd flask_api
 python api.py
 ```
+<br/>
 ## Second Component: SpringBoot backend:
 After you have your API up and running you can now install the SpringBoot project:
 <br/>
@@ -40,7 +42,7 @@ mvn spring-boot:run
 ```
 <br/>
 The system Now should be up and running!
-
+<br/>
 # Modelling and Testing:
 The AdaBoost model used here achieves 93.5 percent validation accuracy and is tested on the test dataset inside the `data` folder. If you want to test the results of the model through the API, you can run the following code:
 <br/>

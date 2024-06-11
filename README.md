@@ -48,7 +48,6 @@ The AdaBoost model used here achieves 93.5 percent validation accuracy and is te
 cd flask_api
 python testing.py
 ```
-<br/>
 The output should be a list of the first ten records of the test set predicted. It should also output a file in the `data` folder called `test_predicted.csv` containing all the predicted test records.
 
 

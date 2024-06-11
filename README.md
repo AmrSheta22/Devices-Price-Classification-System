@@ -27,8 +27,9 @@ First install the requirements for the project using:
 pip install -r requirments.txt
 ```
 <br/>
-Then you will run the flask API: <br/>
-```sh
+Then you will run the flask API: 
+<br/>
+```
 cd flask_api
 python api.py
 ```
@@ -36,7 +37,7 @@ python api.py
 ## Second Component: SpringBoot backend:
 After you have your API up and running you can now install the SpringBoot project:
 <br/>
-```sh
+```
 cd ../priceClassificationSystem
 mvn clean install
 mvn spring-boot:run
@@ -47,7 +48,7 @@ The system Now should be up and running!
 # Modelling and Testing:
 The AdaBoost model used here achieves 93.5 percent validation accuracy and is tested on the test dataset inside the `data` folder. If you want to test the results of the model through the API, you can run the following code:
 <br/>
-```sh
+```
 cd flask_api
 python testing.py
 ```

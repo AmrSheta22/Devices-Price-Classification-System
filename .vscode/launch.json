@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PriceClassificationSystemApplication",
+            "request": "launch",
+            "mainClass": "com.device_classifier.PriceClassificationSystemApplication",
+            "projectName": "priceClassificationSystem"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PriceClassificationSystemApplication<priceClassificationSystem>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.device_classifier.priceClassificationSystem.PriceClassificationSystemApplication",
+            "projectName": "priceClassificationSystem",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

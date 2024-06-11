@@ -27,7 +27,7 @@ First install the requirements for the project using:
 pip install -r requirments.txt
 ```
 Then you will run the flask API: 
-```
+```sh
 cd flask_api
 python api.py
 ```
@@ -35,12 +35,11 @@ python api.py
 ## Second Component: SpringBoot backend:
 After you have your API up and running you can now install the SpringBoot project:
 <br/>
-```
+```sh
 cd ../priceClassificationSystem
 mvn clean install
 mvn spring-boot:run
 ```
-<br/>
 The system Now should be up and running!
 <br/>
 # Modelling and Testing:

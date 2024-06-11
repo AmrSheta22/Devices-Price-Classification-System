@@ -31,7 +31,6 @@ Then you will run the flask API:
 cd flask_api
 python api.py
 ```
-<br/>
 ## Second Component: SpringBoot backend:
 After you have your API up and running you can now install the SpringBoot project:
 <br/>

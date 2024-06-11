@@ -5,8 +5,8 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model
-model = joblib.load('adaboost_model.pkl')
-scaler = joblib.load('normalizer.pkl')
+model = joblib.load('../model/adaboost_model.pkl')
+scaler = joblib.load('../model/normalizer.pkl')
 
 # Define the expected keys in the order the model expects them
 expected_keys = [

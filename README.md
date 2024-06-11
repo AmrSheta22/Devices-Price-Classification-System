@@ -14,13 +14,18 @@ The SpringBoot project contains a simple h2 database with several operations suc
 
 # Installation:
 After cloning the project using the following snippet:
+<br/>
 `git clone https://github.com/AmrSheta22/Devices-Price-Classification-System.git
 cd Devices-Price-Classification-System` 
+<br/>
 You will need to install the system on your device by setting up two components:
 ## First Compnnent: Python Flask API:
 First install the requirments for the project using:
+<br/>
 `pip install -r requirements.txt`
-Then you will run the flask api:
+<br/>
+Then you will run the flask API:
+<br/>
 `cd flask_api
 python api.py`
 ## Second Component: SpringBoot backend:

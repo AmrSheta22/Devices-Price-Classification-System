@@ -22,10 +22,10 @@ You will need to install the system on your device by setting up two components:
 ## First Compnnent: Python Flask API:
 First install the requirments for the project using:
 <br/>
-`pip install -r requirements.txt`
-<br/>
+```
+pip install -r requirements.txt
+```
 Then you will run the flask API:
-<br/>
 ```
 cd flask_api
 python api.py

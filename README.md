@@ -18,13 +18,13 @@ After cloning the project using the following snippet:
 git clone https://github.com/AmrSheta22/Devices-Price-Classification-System.git
 cd Devices-Price-Classification-System
 ```
-<br/>
 You will need to install the system on your device by setting up two components:
 <br/>
 ## First Component: Python Flask API:
-First install the requirements for the project using: <br/>
-```sh
-pip install -r requirements.txt
+First install the requirements for the project using: 
+<br/>
+```
+pip install -r requirments.txt
 ```
 <br/>
 Then you will run the flask API: <br/>

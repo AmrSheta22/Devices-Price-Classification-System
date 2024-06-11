@@ -26,9 +26,7 @@ First install the requirements for the project using:
 ```
 pip install -r requirments.txt
 ```
-<br/>
 Then you will run the flask API: 
-<br/>
 ```
 cd flask_api
 python api.py

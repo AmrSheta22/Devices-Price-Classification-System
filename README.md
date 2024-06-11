@@ -4,7 +4,7 @@ This is a device price classification system that uses Python and SpringBoot. Ma
   ● SpringBoot project: contains a simple entity, and a few endpoints, to call the service  from the Python project for a bunch of test cases, and store them.
 
 The Python project analyzes the device's data and preprocesses and visualizes it to give a better understanding of the best ways for modelling it. The modeling was done inside the notebook inside the `model` directory and the model is called inside a flask API that takes an input device and outputs the price range from 0 to 3. <br/>
-The SpringBoot project contains a simple h2 database with several operations such as adding and removing devices. It also calls the flask API to predict input devices to the database. It contains the following endpoints:<br/>
+The SpringBoot project contains a simple h2 database with several operations such as adding and removing devices. It is also called the flask API, which predicts input devices to the database. It contains the following endpoints:<br/>
   ● POST /api/devices/: Retrieve a list of all devices <br/>
   ● GET /api/devices/{id}: Retrieve details of a specific device by ID. <br/>
   ● POST /api/devices: Add a new device. <br/>
@@ -20,8 +20,9 @@ cd Devices-Price-Classification-System`
 <br/>
 You will need to install the system on your device by setting up two components:
 <br/>
-## First Compnnent: Python Flask API:
-First install the requirments for the project using: <br/>
+<br/>
+## First Component: Python Flask API:
+First install the requirements for the project using: <br/>
 ```
 pip install -r requirements.txt
 ```
@@ -51,7 +52,7 @@ cd flask_api
 python testing.py
 ```
 <br/>
-The output should be a list of the first ten records of the test set predicted. It should also output a file in the `data` folder called `test_predicted.csv` which contains all the test records predicted.
+The output should be a list of the first ten records of the test set predicted. It should also output a file in the `data` folder called `test_predicted.csv` containing all the predicted test records.
 
 
 
